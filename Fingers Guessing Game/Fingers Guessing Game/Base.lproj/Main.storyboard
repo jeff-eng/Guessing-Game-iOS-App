@@ -31,6 +31,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoY-MT-b20">
                                 <rect key="frame" x="161" y="204" width="53" height="30"/>
                                 <state key="normal" title="Submit "/>
+                                <connections>
+                                    <action selector="submitGuessButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NSJ-Wo-n8a"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqg-4T-gh7">
                                 <rect key="frame" x="20" y="323" width="335" height="21"/>
@@ -48,6 +51,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="feedbackLabel" destination="Oqg-4T-gh7" id="uO8-fu-5un"/>
+                        <outlet property="guessTextField" destination="eRP-1R-pvq" id="Kg5-dW-2kI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var guessTextField: UITextField!
+    
+    @IBOutlet weak var feedbackLabel: UILabel!
+    
+    @IBAction func submitGuessButtonClicked(sender: AnyObject) {
+    
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
