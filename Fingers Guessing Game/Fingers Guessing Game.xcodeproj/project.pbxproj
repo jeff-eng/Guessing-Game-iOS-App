@@ -12,6 +12,11 @@
 		955CAF041D25CDEF00236D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955CAF021D25CDEF00236D54 /* Main.storyboard */; };
 		955CAF061D25CDEF00236D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955CAF051D25CDEF00236D54 /* Assets.xcassets */; };
 		955CAF091D25CDEF00236D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955CAF071D25CDEF00236D54 /* LaunchScreen.storyboard */; };
+		955CAF151D25F14900236D54 /* fingercount-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 955CAF101D25F14900236D54 /* fingercount-1.png */; };
+		955CAF161D25F14900236D54 /* fingercount-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 955CAF111D25F14900236D54 /* fingercount-2.png */; };
+		955CAF171D25F14900236D54 /* fingercount-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 955CAF121D25F14900236D54 /* fingercount-3.png */; };
+		955CAF181D25F14900236D54 /* fingercount-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 955CAF131D25F14900236D54 /* fingercount-4.png */; };
+		955CAF191D25F14900236D54 /* fingercount-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 955CAF141D25F14900236D54 /* fingercount-5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		955CAF051D25CDEF00236D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		955CAF081D25CDEF00236D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		955CAF0A1D25CDEF00236D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955CAF101D25F14900236D54 /* fingercount-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fingercount-1.png"; path = "Fingers Guessing Game/fingercount-1.png"; sourceTree = "<group>"; };
+		955CAF111D25F14900236D54 /* fingercount-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fingercount-2.png"; path = "Fingers Guessing Game/fingercount-2.png"; sourceTree = "<group>"; };
+		955CAF121D25F14900236D54 /* fingercount-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fingercount-3.png"; path = "Fingers Guessing Game/fingercount-3.png"; sourceTree = "<group>"; };
+		955CAF131D25F14900236D54 /* fingercount-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fingercount-4.png"; path = "Fingers Guessing Game/fingercount-4.png"; sourceTree = "<group>"; };
+		955CAF141D25F14900236D54 /* fingercount-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fingercount-5.png"; path = "Fingers Guessing Game/fingercount-5.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		955CAEF21D25CDEF00236D54 = {
 			isa = PBXGroup;
 			children = (
+				955CAF1A1D25F15300236D54 /* Images */,
 				955CAEFD1D25CDEF00236D54 /* Fingers Guessing Game */,
 				955CAEFC1D25CDEF00236D54 /* Products */,
 			);
@@ -62,6 +73,18 @@
 				955CAF0A1D25CDEF00236D54 /* Info.plist */,
 			);
 			path = "Fingers Guessing Game";
+			sourceTree = "<group>";
+		};
+		955CAF1A1D25F15300236D54 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				955CAF101D25F14900236D54 /* fingercount-1.png */,
+				955CAF111D25F14900236D54 /* fingercount-2.png */,
+				955CAF121D25F14900236D54 /* fingercount-3.png */,
+				955CAF131D25F14900236D54 /* fingercount-4.png */,
+				955CAF141D25F14900236D54 /* fingercount-5.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +147,12 @@
 			files = (
 				955CAF091D25CDEF00236D54 /* LaunchScreen.storyboard in Resources */,
 				955CAF061D25CDEF00236D54 /* Assets.xcassets in Resources */,
+				955CAF191D25F14900236D54 /* fingercount-5.png in Resources */,
+				955CAF171D25F14900236D54 /* fingercount-3.png in Resources */,
+				955CAF181D25F14900236D54 /* fingercount-4.png in Resources */,
+				955CAF151D25F14900236D54 /* fingercount-1.png in Resources */,
 				955CAF041D25CDEF00236D54 /* Main.storyboard in Resources */,
+				955CAF161D25F14900236D54 /* fingercount-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +314,7 @@
 				955CAF0F1D25CDEF00236D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
