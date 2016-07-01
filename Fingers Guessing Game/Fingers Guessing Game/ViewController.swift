@@ -14,14 +14,25 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var feedbackLabel: UILabel!
     
+    @IBOutlet weak var imageView: UIImageView!
+    
     @IBAction func submitGuessButtonClicked(sender: AnyObject) {
         let randomNumber = String(arc4random_uniform(6))
         
-        if randomNumber == guessTextField.text {
+        if guessTextField.text == "" {
+            feedbackLabel.text = "Please enter a number between 0-5"
+            imageView.image = nil       }
+        
+        else if randomNumber == guessTextField.text {
             feedbackLabel.text = "You correctly guessed \(randomNumber)."
-        } else {
-            feedbackLabel.text = "You guessed wrong. It was \(randomNumber)."
+            imageView.image = UIImage(named: "fingercount-\(randomNumber).png")
         }
+        
+        else {
+            feedbackLabel.text = "You guessed wrong. It was \(randomNumber)."
+            imageView.image = UIImage(named: "fingercount-\(randomNumber).png")
+        }
+        
     }
     
     override func viewDidLoad() {
