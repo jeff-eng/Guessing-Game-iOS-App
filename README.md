@@ -1,5 +1,5 @@
 # Guessing-Game-iOS-App
-Simple Guessing Game iOS App built using Xcode 7 and written in Swift 2
+Simple Guessing Game iOS App built using Xcode 7 and written in Swift 2. User is asked to guess how many fingers the app is holding up. Based on their input, the user receives feedback if the guess was correct or incorrect, and images corresponding to the number of fingers is displayed.
 
 ##Concepts used:
 * If-else statements
